@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="functions.js" defer></script> <!-- defer to make it execute after loading the web -->
+    <script src="code.js" defer></script> <!-- defer to make it execute after loading the web -->
+    
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Odin library exercise</title>
+</head>
+<body>
+
+    <div id="upper-part">
+        <div id="new-book">
+            <div class="input">
+                <label for="Author">Author</label>
+                <input type="text" id="iAuthor" name="iAuthor">
+            </div>
+
+            <div class="input">
+                <label for="Title">Title</label>
+                <input type="text" id="iTitle" name="iTitle">
+            </div>
+
+            <div class="input">
+                <label for="Pages">Pages</label>
+                <input type="text" id="iPages" name="iPages">
+            </div>
+
+            <div class="chkbox">
+                <input type="checkbox" id="iRead" name="cRead" value="read">
+                <label for="iRead">Read</label>
+            </div>
+
+            <button id="btn-new-book">A new book appears!</button>
+
+        </div>
+
+    </div>
+
+    <div id="bottom-part">
+        <div id="article">
+            <!-- card example: 
+            <div class="card" data="0">
+              <p class="text-card">Author</p>
+              <p class="text-card">Title</p>
+              <p class="text-card">999</p>
+              <p class="text-card">read</p>
+              <button class="readMe" data="0">Read/unread</button>
+              <button class="deleteMe" data="0">delete me</button>
+            </div>
+            -->
+        </div>
+    </div>
+    
+</body>
+</html>
